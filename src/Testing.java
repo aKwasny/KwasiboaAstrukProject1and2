@@ -7,8 +7,8 @@ public class Testing {
 
         try {
             while (true) {
-                Pair v = s.get().getNext();
-                System.out.println("Pobrano " + v.getV() + ".");
+                Pair w = s.get();
+                System.out.println("Pobrano " + w.getV() + ".");
             }
         }
         catch(WyjatekPustegoStosu w){
