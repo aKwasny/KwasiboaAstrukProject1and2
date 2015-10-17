@@ -1,5 +1,3 @@
-import java.util.EmptyStackException;
-
 public class Testing {
     public static void main(String[] args) {
         Stack s = new Stack();
@@ -13,8 +11,8 @@ public class Testing {
                 System.out.println("Pobrano " + v.getV() + ".");
             }
         }
-        catch(IndexOutOfBoundsException a){
-            System.out.println("Stos jest pusty.");
+        catch(WyjatekPustegoStosu w){
+            System.out.println(w.getMessage());
         }
     }
 }

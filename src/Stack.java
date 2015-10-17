@@ -18,9 +18,9 @@ public class Stack {
         head = pair;
     }
 
-    public Pair get() throws ArrayIndexOutOfBoundsException {
+    public Pair get() throws WyjatekPustegoStosu {
         if (this.isEmpty()) {
-            throw new ArrayIndexOutOfBoundsException("Napotkano koniec stosu.");
+            throw new WyjatekPustegoStosu("Napotkano koniec stosu.");
         } else {
             Pair tmp = this.head;
             this.head = this.head.getNext();
