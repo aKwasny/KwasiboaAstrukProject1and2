@@ -11,4 +11,16 @@ public class Pair {
     public Pair getNext () {
         return next;
     }
+
+    public void setNext (Pair next) {
+        this.next = next;
+    }
+
+    public double getV () {
+        return v;
+    }
+
+    public void setV (double v) {
+        this.v = v;
+    }
 }
